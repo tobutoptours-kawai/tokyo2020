@@ -79,14 +79,14 @@ header {
   color          : #fff;
   letter-spacing : 2px;
   text-shadow    : 
-       2px  2px 1px #234B86,
-      -2px  2px 1px #234B86,
-       2px -2px 1px #234B86,
-      -2px -2px 1px #234B86,
-       2px  0px 1px #234B86,
-       0px  2px 1px #234B86,
-      -2px  0px 1px #234B86,
-       0px -2px 1px #234B86;
+       2px  2px 1px #624301,
+      -2px  2px 1px #624301,
+       2px -2px 1px #624301,
+      -2px -2px 1px #624301,
+       2px  0px 1px #624301,
+       0px  2px 1px #624301,
+      -2px  0px 1px #624301,
+       0px -2px 1px #624301;
 }
 #wrap .relative h1 p.tit_01 {
   font-size: 2.5rem;
