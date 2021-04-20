@@ -1,0 +1,282 @@
+@charset "utf-8";
+body {
+  background: white;
+  text-align: center;
+  color: #333333;
+  font-family: "TOKYO2020 JPN R", "メイリオ", "Meiryo UI", "游ゴシック", "Yu Gothic UI"
+}
+#wrap {
+  margin: auto;
+  width: 1200px;
+}
+/*パンくず
+-----------------------------------*/
+#pkz {
+  width: 1200px;
+  margin: 5px auto 5px;
+  padding: 0;
+  font-size: 12px;
+  color: #5c5955;
+  list-style: none;
+}
+#pkz li {
+  float: left;
+}
+#pkz li:not(:last-child):after {
+  margin: 0 5px;
+  content: url(img/ico_pkz_arrow.png);
+}
+#pkz a {
+  color: #5c5955;
+  text-decoration: none;
+}
+#pkz a:hover {
+  opacity: 0.6;
+}
+/*clearfix*/
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+h1 {
+  margin-top: 0px;
+  width: 100%;
+  background-color: #1f2a66;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  height: 50px;
+}
+#visualarea {
+  position: relative;
+  width: 1200px;
+  height: 410px;
+  background-image: url("img/bk_title.jpg");
+  background-repeat: no-repeat;
+  margin-top: -14px;
+}
+
+
+h3 {
+  position: absolute;
+    font-size: 1.8rem;
+    color: rgba(255,69,123,.8);
+    text-shadow: 3px 3px 1px #333,0 0 #fff;
+    font-weight: 700;
+    left: 126px;
+    bottom: 7px;
+line-height:38px;
+}
+
+#visualarea .slide_copy {
+    position: absolute;
+    bottom: 10px;
+    right: 14px;
+    color: #fff;
+    display: block;
+    text-shadow: 2px 2px #333;
+}
+#visualarea img {
+    position: absolute;
+    top: 170px;
+    left: 130px;
+}
+
+#visualarea .title .title_pat {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+}
+#visualarea .title .title_pat_r {
+    width: 1%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#visualarea .title .title_pat_t {
+    width: 100%;
+    height: 2%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#visualarea .title .title_pat_l {
+    width: 1%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#visualarea .title .title_pat_b {
+    width: 100%;
+    height: 2%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.innertitle {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 6px 4px #000;
+  vertical-align: top;
+  padding-top: 40px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.introduction {
+  position: relative;
+  margin-left: 550px;
+  margin-top: -60px;
+  width: 46%;
+  line-height: 30px;
+  background: rgba(255, 255, 255, .7);
+  background-attachment: fixed;
+  padding: 14px 18px;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+
+
+
+
+#comment {
+  margin: auto;
+}
+.attention {
+font-size: 22px;
+color: #ee334e;
+  line-height: 24px;
+margin: 10px 0 0px;
+}
+.lot {
+  margin-top: -20px;
+  margin-left: 50px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+}
+#tourlist {
+  width: 1200px;
+  padding-top: 20px;
+}
+#tourlist a {
+  text-decoration: none;
+}
+#tourlist .sat{
+	color: #0081c8;
+}
+#tourlist .sun{
+	color: #cd3135;
+}
+.tourplan-2nd {
+  background-color: #fff9f5;
+}
+.tourplan-1st {
+  background-color: white;
+}
+.close {
+  font-size: 0.8rem;
+  background-color: #eeebe7;
+  color: #aaaaaa;
+  margin: 0px 4px;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.19);
+}
+.apply {
+  font-size: 1.0rem;
+  line-height:28px;
+  background-color: #0081c8;
+  color: white;
+  margin: -10px 2px;
+  font-weight: 300;
+  border-top: 2px;
+  border-bottom: 2px solid #005b8d;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  font-family: "TOKYO2020 JPN R", "メイリオ", "Meiryo UI";
+  font-size: 14px;
+  padding: 4px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #7acded;
+}
+.tg th {
+  font-family: "TOKYO2020 JPN R", "メイリオ", "Meiryo UI";
+  font-size: 15px;
+  font-weight: normal;
+  padding: 4px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #7acded;
+}
+.tg .tg-0lax {
+  text-align: center;
+  vertical-align: middle;
+}
+.tg-0lax-cap {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+}
+.tg-0lax-num p {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  line-height: 20px;
+  font-size: 18px;
+}
+.tg-0lax-name {
+
+}
+.tg-0lax-cap, .tg-0lax-num {
+  background-color: #002063;
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  background-size: 15px 15px;
+  background-position: 0 0, 7.5px 7.5px;
+  background-image: -webkit-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -webkit-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: -moz-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -moz-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: -ms-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -ms-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: -o-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -o-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+}
+.tg-0lax-name {
+  text-align: left;
+}
+.btn_back {
+  color: #ffffff;
+  background-color: #1f2a66;
+  padding: 6px 10px;
+  font-size: 16px;
+  position: relative;
+  margin-left: 900px;
+}
+a:hover {
+  text-decoration: none;
+  color: #66cae9;
+}

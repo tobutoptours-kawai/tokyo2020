@@ -1,0 +1,683 @@
+@charset "UTF-8";
+/* CSS Document */
+/*---------------------------------------------
+  General Settings
+  ---------------------------------------------*/
+img {
+  width: auto\9;
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-align: center;
+  line-height: 1.6;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-family: YuGothic, '游ゴシック','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  *font-family: 'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+/*---------------------------------------------
+  Header
+  ---------------------------------------------*/
+header {
+  padding: 1em 0;
+  border-bottom: 1px solid #c9c9c9;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+  background: white;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, white 0%, #e5e5e5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, white 0%, #e5e5e5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, white 0%, #e5e5e5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+  /* IE6-8 */
+}
+header > h1 {
+  margin: 0;
+  color: #313131;
+  font-size: 1.5em;
+}
+header .desc,
+header .ver {
+  display: inline-block;
+  margin: .5em 0;
+  font-size: .75em;
+}
+
+/*---------------------------------------------
+  Breadcrumb
+  ---------------------------------------------*/
+.breadcrumb {
+  list-style: none;
+  margin-top: 0;
+  padding: .2em 2em;
+  background: #313131;
+  text-align: right;
+}
+.breadcrumb > li {
+  display: inline-block;
+  color: #eeeeee;
+  font-size: .75em;
+}
+.breadcrumb > li a {
+  color: white;
+  text-decoration: none;
+}
+.breadcrumb > li:first-child a::before {
+  margin-right: .25em;
+  font-family: "FontAwesome";
+  content: "\f015";
+}
+.breadcrumb > li:not(:first-child)::before {
+  margin-right: .75em;
+  margin-left: .5em;
+  font-family: "FontAwesome";
+  content: "\f105";
+}
+
+/*---------------------------------------------
+  Login Form
+  ---------------------------------------------*/
+.login {
+  width: 380px;
+  margin: 60px auto 36px;
+  border: 1px solid #959595;
+}
+.login dt,
+.login dd {
+  display: inline-block;
+  color: #313131;
+  font-size: .875em;
+}
+.login dt {
+  width: 80px;
+  text-align: right;
+}
+.login dd {
+  margin: 0;
+}
+.login dd input {
+  width: 180px;
+}
+
+.forgot {
+  margin-bottom: 60px;
+  color: #535353;
+  font-size: .875em;
+}
+
+/*---------------------------------------------
+  Login User Disp
+  ---------------------------------------------*/
+.login-user {
+  display: block;
+  width: 280px;
+  border: 1px solid #959595;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: 2em;
+  margin-bottom: 36px;
+  padding: 6px 1.5em;
+  text-align: left;
+}
+.login-user dt,
+.login-user dd {
+  display: inline-block;
+  font-size: .75em;
+}
+.login-user dt::before {
+  margin-right: .25em;
+  font-family: "FontAwesome";
+  content: "\f007";
+}
+.login-user dd {
+  margin: 0;
+  font-weight: bold;
+}
+.login-user dd .logout {
+  margin-left: 1em;
+  font-weight: normal;
+  font-size: .8em;
+}
+.login-user dd .logout a {
+  display: inline-block;
+  padding: 1px 10px;
+  border-radius: 5px;
+  background: #ff2b24;
+  color: white;
+  text-decoration: none;
+}
+.login-user dd .logout a:hover {
+  background: #ff5036;
+}
+.login-user dd .logout a::before {
+  font-family: "FontAwesome";
+  content: "\f08b";
+}
+
+.login-msg {
+  margin: 90px 0;
+}
+.login-msg .alert {
+  color: red;
+}
+.login-msg .backbtn {
+  margin: 60px 0;
+}
+.login-msg .backbtn a {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  padding: 6px 0;
+  border-radius: 5px;
+  background: #1373ab;
+  color: white;
+  text-decoration: none;
+}
+.login-msg .backbtn a:hover {
+  background: #1892d9;
+}
+
+/*---------------------------------------------
+  ticket-entry-result-link
+  ---------------------------------------------*/
+.ticket-entry-result-link {
+  text-align: left;
+  font-size: .875em;
+}
+.ticket-entry-result-link a {
+  display: inline-block;
+  padding: 3px 1em;
+  background: #0075a9;
+  color: white;
+  text-decoration: none;
+  transition: all .25s ease;
+}
+.ticket-entry-result-link a::before {
+  margin-right: .25em;
+  font-family: 'FontAwesome';
+  content: '\f0a9';
+}
+.ticket-entry-result-link a:hover {
+  opacity: .75;
+}
+
+/*---------------------------------------------
+  Content
+  ---------------------------------------------*/
+.main-contents {
+  margin-bottom: 90px;
+  padding: 0 2em;
+}
+
+.ticket-list > h1,
+.ticket-detail > h1 {
+  font-size: 1.25em;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 24px;
+}
+.ticket-list > h1::before,
+.ticket-detail > h1::before {
+  margin-right: .25em;
+  color: #186872;
+  font-family: "FontAwesome";
+}
+
+.ticket-list > h1:before {
+  content: "\f03a";
+}
+
+.ticket-detail > h1:before {
+  content: "\f0f6";
+}
+
+.index-back-btn a {
+  display: block;
+  width: 240px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #535353;
+  color: white;
+  text-decoration: none;
+}
+.index-back-btn a::before {
+  margin-right: .25em;
+  font-family: "FontAwesome";
+  content: "\f0a8";
+}
+.index-back-btn a:hover {
+  background: #1892d9;
+}
+
+.site-back-btn a {
+  display: block;
+  width: 240px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #535353;
+  transition: background .5s ease;
+  margin: 0 auto;
+}
+.site-back-btn a::before {
+  margin-right: .25em;
+  font-family: "FontAwesome";
+  content: "\f0a8";
+}
+.site-back-btn a:hover {
+  background: #1892d9;
+}
+
+.help {
+  text-align: right;
+  color: #313131;
+  font-size: .75em;
+}
+.help::before {
+  margin-right: .25em;
+  font-family: "FontAwesome";
+  content: "\f06a";
+}
+
+.alignR {
+  text-align: right;
+}
+
+/*---------------------------------------------
+  Search
+  ---------------------------------------------*/
+.search-btns {
+  list-style: none;
+  padding: 0;
+}
+.search-btns > li {
+  display: inline-block;
+}
+.search-btns > li:not(:last-child) {
+  margin-right: 1em;
+}
+.search-btns > li button {
+  padding: .25em 1em;
+  cursor: pointer;
+}
+
+.reset-btn::before,
+.search-btn::before {
+  margin-right: .25em;
+  font-family: "FontAwesome";
+}
+
+.reset-btn::before {
+  content: '\f00d';
+}
+
+.search-btn::before {
+  content: '\f002';
+}
+
+.search-btn {
+  border: none;
+  background: #0075a9;
+  color: white;
+}
+
+/*---------------------------------------------
+  Ticket Table Filter
+  ---------------------------------------------*/
+#filter-area {
+  list-style: none;
+}
+#filter-area > li {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: black;
+  text-align: left;
+  font-size: .75em;
+}
+#filter-area > li:not(:last-child) {
+  margin-right: 20px;
+}
+#filter-area > li > label,
+#filter-area > li > label + div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ticket-sche-select {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 1em 20px;
+  background: #eeeeee;
+  text-align: left;
+}
+.ticket-sche-select::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.ticket-sche-select > h1 {
+  width: 60px;
+  float: left;
+  margin: 0;
+  font-weight: normal;
+  font-size: .75em;
+}
+
+.ticket-sche-list {
+  float: right;
+  width: calc(100% - 90px);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: .875em;
+}
+.ticket-sche-list > li {
+  display: inline-block;
+}
+.ticket-sche-list > li label {
+  cursor: pointer;
+}
+.ticket-sche-list > li label:hover {
+  color: #535353;
+}
+.ticket-sche-list > li input[type="checkbox"] {
+  margin-right: .25em;
+}
+.ticket-sche-list > li:not(:last-child) {
+  margin-right: .5em;
+}
+
+#ticket-sum {
+  display: block;
+  width: 240px;
+  margin: 0 auto 12px;
+  border: 1px solid #959595;
+}
+#ticket-sum > p {
+  margin: 6px 0;
+  color: #313131;
+  font-size: .875em;
+}
+#ticket-sum strong {
+  color: #bf30ba;
+}
+
+/*---------------------------------------------
+  Ticket Table
+  ---------------------------------------------*/
+.ticket-tbl {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  border-top: 1px solid #535353;
+  border-left: 1px solid #535353;
+  background: blue;
+}
+.ticket-tbl th,
+.ticket-tbl td {
+  padding: 6px .5em;
+  border-right: 1px solid #535353;
+  border-bottom: 1px solid #535353;
+  font-size: .75em;
+}
+.ticket-tbl th {
+  background: #313131;
+  color: white;
+}
+.ticket-tbl td a {
+  text-decoration: none;
+}
+.ticket-tbl tr:nth-child(even) > td {
+  background: #eeeeee;
+}
+.ticket-tbl tr:nth-child(odd) > td {
+  background: white;
+}
+
+/*---------------------------------------------
+  Ticket Quantity Table
+  ---------------------------------------------*/
+.ticket-quantity-tbl {
+  border-collapse: collapse;
+  margin: 0 auto 1em;
+  border-top: 1px solid #535353;
+  border-left: 1px solid #535353;
+}
+.ticket-quantity-tbl th,
+.ticket-quantity-tbl td {
+  padding: 6px 10px;
+  border-right: 1px solid #535353;
+  border-bottom: 1px solid #535353;
+  font-size: .875em;
+}
+.ticket-quantity-tbl th {
+  background: #313131;
+  color: white;
+}
+
+/*---------------------------------------------
+  Ticket Application Form
+  ---------------------------------------------*/
+.apl-form {
+  max-width: 940px;
+  margin: 36px auto;
+  padding: 24px 1em;
+  border-radius: 10px;
+  border: 1px solid #959595;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+  background: white;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ3JSIgc3RvcC1jb2xvcj0iI2Y2ZjZmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZGVkZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, white 0%, #f6f6f6 47%, #ededed 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, white 0%, #f6f6f6 47%, #ededed 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, white 0%, #f6f6f6 47%, #ededed 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+  /* IE6-8 */
+}
+.apl-form h1 {
+  color: #313131;
+  font-size: 1.25em;
+}
+
+.ticket-apl-tbl {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #535353;
+  border-left: 1px solid #535353;
+}
+.ticket-apl-tbl th,
+.ticket-apl-tbl td {
+  padding: 6px 10px;
+  border-right: 1px solid #535353;
+  border-bottom: 1px solid #535353;
+  font-size: .875em;
+}
+.ticket-apl-tbl th {
+  background: #e5e5e5;
+  color: #313131;
+}
+.ticket-apl-tbl th em {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: .25em;
+  padding: 1px 5px;
+  background: #de1212;
+  color: white;
+  font-style: normal;
+  font-size: .65em;
+}
+.ticket-apl-tbl td {
+  background: white;
+  text-align: left;
+}
+
+.uname input,
+.tname input {
+  width: 240px;
+}
+
+.code input {
+  width: 120px;
+}
+
+.quant input[type=number] {
+  width: 40px;
+}
+
+.send input[type=submit] {
+  width: 180px;
+  color: white;
+  background: #1373ab;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 2em;
+}
+.send input[type=submit]:hover {
+  background: #ff4242;
+}
+
+.reload a {
+  padding: 3px 1em;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  color: white;
+  background: #1373ab;
+}
+.reload a:hover {
+  background: #ff4242;
+}
+
+/*---------------------------------------------
+  Pagination
+  ---------------------------------------------*/
+.pagination {
+  margin: 12px 0 24px;
+  text-align: center;
+}
+
+.page-numbers,
+.prev,
+.next {
+  text-decoration: none;
+  color: white;
+}
+
+.page-numbers {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 5px;
+  background: #535353;
+  color: white;
+}
+.page-numbers:hover {
+  background: #959595;
+}
+.page-numbers.current {
+  background: #eeeeee;
+  color: #959595;
+}
+
+/*---------------------------------------------
+  Ticket CSV Download
+  ---------------------------------------------*/
+.ticket-csv {
+  text-align: left;
+  font-size: 87.5%;
+}
+
+.ticket-csv-main .dlbtn {
+  cursor: pointer;
+}
+.ticket-csv-main::before,
+.ticket-csv-main .dlbtn::before {
+  margin-right: .25em;
+  font-family: 'FontAwesome';
+}
+.ticket-csv-main::before {
+  content: '\f1c3';
+}
+.ticket-csv-main .dlbtn::before {
+  content: '\f019';
+}
+
+/*---------------------------------------------
+  Footer
+  ---------------------------------------------*/
+footer {
+  padding: 60px 0 24px;
+  border-top: 1px solid #959595;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+  background: white;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, white 0%, #e5e5e5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, white 0%, #e5e5e5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, white 0%, #e5e5e5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+  /* IE6-8 */
+}
+footer .copy {
+  color: #535353;
+  font-size: .75em;
+}
+
+/*---------------------------------------------
+  Pagetop Button Style
+  ---------------------------------------------*/
+.page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 6px 10px;
+  background: #0075a9;
+  color: white;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: .75em;
+  cursor: pointer;
+  transition: background .5s ease;
+}
+.page-top::before {
+  position: relative;
+  margin-right: .25em;
+  font-family: 'FontAwesome';
+  content: '\f077';
+  transition: bottom .5s ease;
+}
+.page-top:hover {
+  background: #eb6877;
+}
+.page-top:hover::before {
+  bottom: 3px;
+}
+
+/*---------------------------------------------
+  Style End
+  ---------------------------------------------*/

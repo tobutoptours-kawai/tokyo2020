@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tour_txt .attention {
+  font-size: 22px;
+  color: #ee334e;
+}
+
+#tourlist {
+  padding-top: 20px;
+  max-width: 1190px;
+  width: 100%;
+  margin: 0 auto; 
+}
+#tourlist .tit {
+  font-size: 20px; 
+}
+
+#tourlist a {
+  text-decoration: none;
+}
+#tourlist .sat{
+	color: #0081c8;
+}
+#tourlist .sun{
+	color: #cd3135;
+}
+.tourplan-2nd {
+  background-color: #fff9f5;
+}
+.tourplan-1st {
+  background-color: white;
+}
+.close {
+  font-size: 0.8rem;
+  background-color: #eeebe7;
+  color: #aaaaaa;
+  margin: 0px 4px;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 1px 1px rgba(0, 0, 0, 0.19);
+}
+.apply {
+  font-size: 1.6rem;
+  line-height:28px;
+  background-color: #0081c8;
+  color: white;
+  margin: -10px 2px;
+  font-weight: 300;
+  border-top: 2px;
+  border-bottom: 2px solid #005b8d;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+}
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.tg td {
+  font-family: "TOKYO2020 JPN R", "メイリオ", "Meiryo UI";
+  font-size: 14px;
+  padding: 4px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #7acded;
+}
+.tg th {
+  font-family: "TOKYO2020 JPN R", "メイリオ", "Meiryo UI";
+  font-size: 15px;
+  font-weight: normal;
+  padding: 4px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #7acded;
+}
+.tg .tg-0lax {
+  text-align: center;
+  vertical-align: middle;
+}
+.tg-0lax-cap {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+}
+.tg-0lax-num p {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  line-height: 20px;
+  font-size: 18px;
+}
+.tg-0lax-name {
+
+}
+.tg-0lax-cap, .tg-0lax-num {
+  background-color: #002063;
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  background-size: 15px 15px;
+  background-position: 0 0, 7.5px 7.5px;
+  background-image: -webkit-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -webkit-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: -moz-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -moz-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: -ms-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -ms-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: -o-linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), -o-linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+  background-image: linear-gradient(45deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%), linear-gradient(-135deg, #193672 25%, #193672 25%, transparent 25%, transparent 75%, #193672 75%, #193672 75%);
+}
+.tg-0lax-name {
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #66cae9;
+}

@@ -1,0 +1,1049 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------------------------------------------
+Responsive
+---------------------------------------------*/
+@media screen and (max-width: 1800px) {
+    /*new home*/
+    /*#top .main_image div > ul.date li p {
+        display: block;
+    }
+    #top header .left-content p, #tokyo_list header .left-content p {
+        font-size: 1.4rem;
+    }
+    #top .main_image h1 {
+        font-size: 2.6rem;
+    }
+    #top .main_image > div ul.date {
+        margin-top: 7em;
+    }
+    #top .tour a {
+        font-size: 3.0rem;
+    }*/
+    
+    /*tokyo tour*/
+    /*#tokyo_list .tour_txt {
+     
+        font-size: 2.0rem;
+    }
+    #tokyo_list .tour_list ul li .top_slider {
+        width: 50%;
+    }
+    #top .bk_slide {
+        width: 60%;
+        height: 100%;
+    }*/
+}
+
+@media screen and (max-width: 1680px) {
+    /*#tokyo_list .tour_list ul li .list_inner {
+        width: 50%;
+    }
+    #tokyo_list .tour_list ul li h2 {
+        font-size: 2.4rem;
+    }
+    #tokyo_list .bk_slide {
+        width: 57%;
+    }*/
+}
+
+@media screen and (max-width: 1630px) {
+    /*top*/
+    /*#top header .left-content p, #tokyo_list header .left-content p {
+        font-size: 1.2rem;
+        margin-left: 0;
+    }
+    #top .count ul li {
+        font-size: 2.0rem;
+    }*/
+    
+    /*tokyo tour*/
+    /*#tokyo_list .bk_slide {
+        width: 70%;
+    }
+    #tokyo_list .tour_list ul li .top_slider {
+        width: 46%;
+    }
+    #tokyo_list .tour_list ul li .list_inner {
+        width: inherit;
+    }
+    #top .main_image div > ul.date li {
+        flex-flow: column;
+    }
+    
+    #tokyo_list .title h2 {
+        font-size: 3.5rem;
+    }
+    #top .main_image h1 {
+        font-size: 2.5rem;
+    }*/
+    
+}
+
+@media screen and (max-width: 1510px) {
+    /*top*/
+    /*#top .main_image h1 {
+        font-size: 2.2rem;
+    }
+    #top .count ul li .txt_cou {
+        font-size: 2.4rem;
+    }
+    #top .tour a {
+        width: 70%;
+        font-size: 2.8rem;
+    }*/
+    
+    
+    /*tokyo tour*/
+    /*#tokyo_list .title p {
+        width: 50%;
+    }
+    #tokyo_list .bk_slide {
+        width: 65%;
+    }*/
+
+}
+
+@media screen and (max-width: 1400px) {
+    #top .main_image div > ul.date li p {
+        display: block;
+    }
+        header .left-content p {
+        font-size: 1.4rem;
+    }
+        #top .main_image h1 {
+        font-size: 2.6rem;
+    }
+        #top .main_image > div ul.date {
+        margin-top: 7em;
+    }
+        #top .tour a {
+        font-size: 3.0rem;
+    }
+    
+    #tokyo_list .tour_txt {
+
+    font-size: 2.0rem;
+}
+    #tokyo_list .tour_list ul li .top_slider {
+    width: 50%;
+}
+    #tokyo_list .tour_list ul li .list_inner {
+    width: 50%;
+}
+    #tokyo_list .tour_list ul li h2 {
+    font-size: 2.4rem;
+}
+    #tokyo_list .bk_slide {
+    width: 57%;
+}
+    #top .bk_slide {
+    width: 60%;
+    height: 100%;
+}
+    #tokyo_list .btn_back_wrap {
+        /*width: 100%;*/
+    }
+    
+    
+    main#top,main#tokyo_list {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .header-inner {
+        width: 95%;
+    }
+    header .left-content img {
+        height: 99px;
+    }
+    footer .footer_inner {
+        width: 90%;
+    }
+    #top .contact ul {
+        -ms-flex-flow: column;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+    #top .contact ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1124px) {
+    #tokyo_list .title h2 {
+        
+        font-size: 3.6rem;
+    }
+    #tokyo_list .tour_list .inner > ul {
+        width: 100%;
+    }
+    #tokyo_list .tour_list ul li h2 {
+        font-size: 2.6rem;
+    }
+    #tokyo_list .tour_list ul li .list_inner div:nth-child(2) {
+        display:-ms-flexbox;
+        display:-webkit-box;
+        display:flex;
+        -ms-flex-flow : column-reverse;
+        -webkit-flex-flow :column-reverse;
+        flex-flow: column-reverse;
+    }
+    #tokyo_list .tour_list ul li .label_lod {
+        margin-left: 0;   
+    }
+    #tokyo_list .btn_back_wrap {
+        width: 100%;
+    }
+    #tokyo_list .tour_txt .inner {
+        width: 100%;
+    }
+    #tokyo_list .title h2 {
+        font-size: 3.5rem;
+    }
+        
+}
+
+@media screen and (max-width: 1040px) {
+
+#tokyo_list .tour_list ul li p {
+    display: inline-block;
+    margin: .5em;
+    font-size: 1.6rem;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    /*home*/
+    .header-inner {
+        justify-content: center;
+    }
+    header .left-content {
+        /*display: none;*/
+    }
+    header .left-content img {
+        height: 80px;
+    }
+    header nav {
+        display: none;
+    }
+    .drawer-hamburger {
+        display: block;
+        padding: 20px 10px 25px;
+        width: 5rem;
+        background-color: #00478a;
+    }
+    .drawer-hamburger-icon, .drawer-hamburger-icon:after, .drawer-hamburger-icon:before {
+        background-color: #fff;
+    }
+    .drawer-hamburger:hover {
+        background-color: #00478a;
+    }
+    .drawer-nav {
+        display: block;
+        z-index: 3;
+    }
+    .drawer--top .drawer-nav {
+        height: 100vh;
+        background: rgba(255,255,255,.9);
+        /*overflow: auto;*/ /*ドロワースクロール不具合修正用*/
+        overflow: scroll;
+
+    }
+    .drawer--top .drawer-nav > ul {
+        width: 85%;
+    }
+    .drawer--top .drawer-nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 1rem 3rem;
+        font-size: 1.5rem;
+        text-align: left;
+        position: relative; 
+    }
+    .drawer--top .drawer-nav > ul > li > a {
+        border-bottom: 1px dotted #2b1000;
+    }
+    .drawer--top .drawer-nav ul li a::after {
+        content: "\f105";
+        font-family: 'FontAwesome';
+        position: absolute;
+        right: 1em;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .drawer--top .drawer-nav > ul > li > ul > li > a {
+        border-bottom: 1px dotted #2b1000;
+        padding-left: 3em;
+    }
+    .drawer--top .drawer-nav > ul > li > ul > li > a::before {
+        content: "- ";
+    }
+    footer .footer_inner {
+        
+        -ms-flex-flow: column;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+    header {
+        /*height: 90px;*/
+        box-sizing: border-box;
+    }
+    #top .main_image > div ul.date {
+        margin-top: 4em;
+    }
+    #top .bk_slide {
+        width: 60%;
+        height: 100%;
+    }
+    #top .contact ul a {
+        font-size: 2.8rem;
+    }
+    
+    /*tokyo tour*/
+    /*#tokyo_list .tour_list .inner > ul {
+        width: 100%;
+    }*/
+    #tokyo_list .title p {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+    #tokyo_list .title h2 {
+        font-size: 3.2rem;
+    }
+    #tokyo_list .title h3 {
+        font-size: 2.4rem;
+    }
+    footer .footer_inner {
+        width: 95%;
+        -ms-flex-flow: column-reverse;
+        -webkit-flex-flow: column-reverse;
+        flex-flow: column-reverse;
+    }
+    footer nav + ul {
+        justify-content: center;
+        margin-bottom: 2em;
+    }
+    #tokyo_list .tour_list ul li .top_slider li .slide_copy,
+	#tokyo_list .tour_list .bg-img .slide_copy {
+        font-size: 1.4rem;
+    }
+    #tokyo_list .tour_list ul li p {
+        font-size: 2.0rem;
+        /*font-size: 1.6rem;*/
+    }
+    #tokyo_list .tour_list ul li h2 {
+        font-size: 2.4rem;
+
+    }
+    #tokyo_list .tour_list ul li a,
+	#tokyo_list .tour_list .inner .course a {
+        flex-flow: column;
+        padding-left: 0;
+    }
+    #tokyo_list .tour_list ul li .list_inner,
+	#tokyo_list .tour_list .course .list_inner {
+        width: 100%;
+        background-color: #00478a;
+    }
+	#tokyo_list .tour_list .bg-img {
+		width: 100%;
+	}
+	#tokyo_list .tour_list .bg-img::before {
+		display: none;
+	}
+    #tokyo_list .bk_slide {
+        display: none;
+    }
+    #tokyo_list .tour_list ul li .top_slider {
+        height: 350px;
+        overflow: hidden;
+        width: 100%;
+    }
+    #tokyo_list .tour_list ul li .top_slider li {
+        background-size: cover;
+        background-position: center;
+        height: 350px;
+    }
+    #tokyo_list .tour_list ul li h3 {
+        margin-bottom: 1em;
+    }
+    li .list_inner {
+        padding: 1em;
+    }
+
+    #tokyo_list .tour_list .bg-img img{
+        display: none;
+    }
+}
+    
+    
+@media screen and (max-width: 900px) {
+    /*home*/
+    #top .main_image {
+        flex-flow: column;
+        padding-left: 0;
+    }
+    #top .bk_slide {
+        display: none;
+    }
+    #top .main_image > div {
+        background: #00478a;
+    }
+    #top .main_image .top_slide {
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    #top .main_image .top_slide li {
+        /*background-position: center -100px;*/
+        /*background-position: center bottom;*/
+        background-position: center -50px;
+        background-size: cover;
+        height: 250px;
+        height: 300px;
+    }
+    #top .slick-track {
+        height: 250px;
+        height: 300px;
+    }
+    
+    #top .slick-list {
+        height: 300px;
+    }
+
+    
+    #top .main_image > div {
+        padding: 1em;
+    }
+    #top .main_image h1 {
+        margin: 0;
+    }
+    #top .main_image > div ul.date {
+        margin-top: 2em;
+    }
+    
+    #top .count ul {
+        flex-flow: column;
+    }
+    #top .count ul li {
+        width: 100%;
+        margin-bottom: 1em;
+        border: double 10px #fff;
+    }
+    #top .tour {
+        height: 250px;
+    }
+    #top .tour a {
+        font-size: 2.2rem;
+        border: 6px solid #fff;
+        width: 90%;
+    }
+    #top .con_new .inner {
+        flex-flow: column;
+    }
+    #top .contact, #top .news {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    footer nav + ul {
+        justify-content: center;
+    }
+    
+    /*tokyo tour*/
+    #tokyo_list .title .inner_sub {
+        padding: 2em 2em;
+    }
+    #tokyo_list .title p {
+        font-size: 1.6rem;
+    }
+    /*#tokyo_list .tour_list ul li h2,
+	#tokyo_list .tour_list .course h2 {
+        font-size: 2.2rem;
+    }
+    #tokyo_list .tour_list ul li h3,
+	#tokyo_list .tour_list .course h3 {
+        font-size: 1.8rem;
+    }*/
+    /*#tokyo_list .tour_list ul li p {
+        font-size: 1.4rem;
+    }*/
+    
+}
+
+@media screen and (max-width: 800px) {
+    /*.dis_block {
+        display: block;
+    }*/
+    
+    #tokyo_list .title .inner_sub {
+        -ms-flex-flow: column;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+    }
+    #tokyo_list .title .inner_sub div div {
+        display:-ms-flexbox;
+        display:-webkit-box;
+        display:flex;
+        -ms-flex-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    #tokyo_list .title .inner_sub div div img {
+        /*height: max-content;*/
+        margin-right: 10px;
+        height: 85px;
+
+    }    
+    #tokyo_list .title h2 {
+        font-size: 3.0rem;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    #tokyo_list .title p {
+        width: 100%;
+        line-height: 1.7;
+        margin-top: .5em;
+    }        
+    #tokyo_list .title .inner_sub {
+        padding: 2em 1em;
+    }
+    #tokyo_list .tour_txt {
+        font-size: 1.5rem;
+    }
+    #tokyo_list .ftsz_24 {
+        font-size: 1.8rem;
+    }
+    /*#tokyo_list .tour_list ul li a {
+        flex-flow: column;
+        padding-left: 0;
+    }*/
+    #tokyo_list .bk_slide {
+        display: none;
+    }
+    #tokyo_list .tour_list ul li .list_inner {
+        background-color: #00478a;
+    }
+    
+    #tokyo_list .tour_list ul li h2 {
+        margin: 0;
+    }
+    #tokyo_list .title h3 {
+        margin: .5em;
+    }
+    #tokyo_list .tour_list ul li .list_inner div:nth-child(2) {
+        display: block;
+    }
+    #tokyo_list .tour_list ul li .top_slider {
+        width: 100%;
+    }
+    #tokyo_list .tour_list ul li .top_slider li {
+        background-size: cover;
+        background-position: center;
+    }
+    #tokyo_list .tour_list ul li .top_slider {
+        height: 350px;
+        overflow: hidden;
+    }
+    
+    #tokyo_list .tour_list ul li .label_lod {
+        width: 100px;
+    }
+    #tokyo_list .btn_back_wrap {
+        -ms-flex-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    header {
+        height: unset;
+    }
+    header .left-content {
+        /* display: none; */
+        -ms-flex-flow: column;
+        -webkit-flex-flow: column;
+        flex-flow: column;
+        width: 100%;
+    }
+    header .left-content p {
+         display: none; 
+        margin-left: 0;
+    }
+    header .left-content p.head_txt {
+        display: block;
+        width: 100%;
+    }
+
+    header .left-content p.head_txt br{
+        display: none;
+    }
+    #tokyo_list .tour_txt .inner p .dis_block {
+        display: block;
+    }
+
+    /*fuhimoriEdit_start*/
+
+    .breadcrumb{
+        width: 85%;
+        margin: 0 auto;
+    }
+    section .inquiry-form{
+        width: 100%!important;
+    }
+
+    section .inquiry-form table{
+        width: 100%!important;
+        table-layout: fixed;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+
+    section .inquiry-form table tr{
+        display: block;
+    }
+    section .inquiry-form table .tr-fifty td input[type="text"] {
+        width: inherit!important;
+        margin-right: .25em;
+    }
+    section .inquiry-form table .tr-fifty td input[name="参加者名（姓）"],
+    section .inquiry-form table .tr-fifty td input[name="参加者名（名）"],
+    section .inquiry-form table .tr-fifty td input[name="ローマ字（姓）"],
+    section .inquiry-form table .tr-fifty td input[name="ローマ字（名）"],
+    section .inquiry-form table .tr-fifty td input[name="参加予定人数"] {
+        width: 45%!important;
+    }
+    section .inquiry-form table .tr-fifty input:last-child {
+        margin-right: 0;
+    }
+    section .inquiry-form table tr th{
+        width: 100%!important /*直書きされたcssを打ち消す*/;
+        display: block;
+        padding: .2em;
+    }
+
+    section .inquiry-form table tr td{
+        width: 100%!important /*直書きされたcssを打ち消す*/;
+        display: block;
+    }
+
+    section .inquiry-form table tr td input[type="text"]{
+        /*width: 100%!important;*/
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    section .inquiry-form table tr td input[type="text"]::last-child{
+        margin-bottom: 0;
+    }
+
+    section .inquiry-form table tr td span.mwform-tel-field input[type="text"]{
+        width: 20%;
+    }
+
+    section .inquiry-form table tr td span.mwform-zip-field input[type="text"]{
+        width: 20%;
+    }
+
+    section .inquiry-form table tr td span.example{
+        display: block;
+    }
+    section .inquiry-form .mw_wp_form_confirm table tr td span.example {
+        display: none;
+    }
+
+    section .inquiry-form table tr td span.mw_wp_form .horizontal-item{
+        margin-left: 0;
+    }
+
+    section .inquiry-form table tr td textarea{
+        width: 100%;
+    }
+
+    .archive-news-list > li time{
+        padding-left: 0;
+    }
+
+    .archive-news-list > li cite{
+        width: 100%;
+    }
+
+    .back-to-index{
+        width: 100%;
+        padding: 10px 0 10px 20px;
+    }
+
+    section#basic-page table{
+        width: 100%!important;
+    }
+
+    section#basic-page table tr th{
+        width: 100%!important /*直書きされたcssを打ち消す*/;
+        display: block;
+    }
+
+    section#basic-page table tr td{
+        width: 100%!important /*直書きされたcssを打ち消す*/;
+        display: block;
+    }
+    #noframe main table {
+        width: 100%!important;    
+    }
+    .faq_block table tr td:first-child {
+        vertical-align: top;
+        /*padding-top: 1em;*/
+    }
+    .btn_back_wrap {
+        -ms-flex-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 100%!important;
+    }
+    
+    main .faq_block table tr td:first-of-type {
+        width: 15%;
+    }
+    /*fuhimoriEdit_finish*/
+    
+    .inquiry-form select[name="年齢"] {
+        height: 40px;
+    }
+    
+    #top .top_contact_txt .break {
+        display: none;
+    }
+    #top .contact .top_contact_txt {
+        font-size: 1.6rem;
+        margin: 1em 1em 0;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 800px) and (-ms-high-contrast: none){
+    header {
+        height: 150px;
+    }
+}
+
+/*@media screen and (max-width: 768px) {
+    #tokyo_list .tour_list ul li p {
+        font-size: 1.5rem;
+    }
+}*/
+
+@media screen and (max-width: 600px) {
+    #top .main_image .top_slide li {
+        
+        background-position: center;  
+        
+    }
+    #top .main_image div > ul.date li {
+        flex-flow: column;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    /*home*/
+    #top .main_image {
+        flex-flow: column;
+        padding-left: 0;
+        margin-bottom: 2em;
+    }
+    #top .main_image h1 {
+        font-size: 2.2rem;
+    }
+    #top .count {
+        margin-bottom: 1em;
+    }
+    #top .count ul li .txt_cou {
+        font-size: 2.0rem;
+    }
+    #top .count ul li .day {
+        font-size: 4.0rem;
+    }
+    /*#top .count ul li::after {
+        border: 2px solid #fff;
+        height: 80%;
+    }*/
+    #top .tour {
+        height: 150px;
+        margin-bottom: 2em;
+        background-position: center;
+    }
+    #top .tour a {
+        font-size: 1.7rem;
+        border: 3px solid #fff;
+        width: 95%;
+    }
+    #top .contact h2, #top .news h2 {
+        font-size: 1.8rem;
+    }
+    #top .contact ul {
+        margin: 1em;
+    }
+    #top .contact ul a {
+        padding: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+    }
+    #top .contact ul li a span::before {
+        margin-left: .3em;
+        margin-right: .3em;
+        font-size: 3.0rem;
+    }
+    /*#top .contact ul li a::after {
+        font-size: 3.0rem;
+    }*/
+    #top .contact ul li a span::after {
+        position: absolute;
+        right: .3em;
+        top: 0;
+        font-family: 'FontAwesome';
+        content: '\f105';
+        font-size: 3.0rem;
+        bottom: 0;
+        margin: auto;
+        height: 60px;
+        line-height: 60px;
+    }
+    #top .news li p {
+        margin: .5em 0;
+    }
+    footer .footer_inner {
+        width: 95%;
+        -ms-flex-flow: column-reverse;
+        -webkit-flex-flow: column-reverse;
+        flex-flow: column-reverse;
+    }    
+    
+    /*tokyo tour*/
+    #tokyo_list .title h2 {
+        font-size: 2.8rem;
+        line-height: 1.3;
+    }
+    #tokyo_list .title h3 {
+        font-size: 2.0rem;
+        display: none;
+    }
+    #tokyo_list .title p {
+        font-size: 1.5rem;
+    }
+    #tokyo_list .list_inner ul li {
+        -ms-flex-flow : column-reverse;
+        -webkit-flex-flow :column-reverse;
+        flex-flow: column-reverse;
+        -ms-flex-align: flex-start;
+        -webkit-box-align: flex-start;
+        align-items: flex-start;
+        margin-top: 1em;
+    }
+	#tokyo_list .tour_list .course .txt-blk {
+		min-height: 0;
+	}
+    #tokyo_list .tour_list ul li p {
+		font-size: 1.8rem;
+    }	
+    #tokyo_list .title h3.list_h3_sub {
+        display: block;
+        text-align: center;
+    }
+    #tokyo_list .title {
+        height: 550px;
+    }
+    #tokyo_list .title .inner {
+        background-size: cover;
+    }
+    #tokyo_list .tour_txt .inner {
+        width: 100%;
+    }
+    #top .news .news_btn_wrap {
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    #tokyo_list .title h3 {
+        display: none;
+    }
+    #tokyo_list .title p {
+        font-size: 1.5rem;
+        padding: .8em;
+    }
+    #tokyo_list .tour_list ul li h2,
+	#tokyo_list .tour_list .course h2 {
+        font-size: 1.9rem;  
+    }
+    #tokyo_list .tour_list ul li h3,
+	#tokyo_list .tour_list .course h3 {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+    #tokyo_list .tour_list ul li p {
+		font-size: 1.6rem;
+    }
+
+    #tokyo_list .tour_list .course .txt-blk div p{
+        font-size: 1.9rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 420px) {
+    #top .main_image > div {
+        padding: .5em;
+    }
+    #top .main_image h1 {
+        /*font-size: 1.6rem;*/
+        font-size: 1.8rem;
+        margin: 1em 0;
+    }
+    #top .main_image > div ul.date {
+        margin-top: 1em;
+    }
+    #top .main_image div > ul.date li {
+        box-shadow: none;
+    }
+    #top .main_image div > ul.date li {
+        margin-bottom: 1em;
+        padding: .5em .8em;
+    }
+    #top .main_image .top_slide {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+    #top .main_image .top_slide li {
+        /*background-position: center -100px;*/
+        /*background-position: center bottom;*/
+        background-size: cover;
+        /*background-position: center; */ 
+        height: 200px;
+    }
+    #top .main_image .top_slide li {
+        /* background-position: center -100px; */
+        /* background-position: center bottom; */
+     
+    }
+    #top .main_image .top_slide .slide_copy {
+        font-size: 1.4rem;
+    }
+    #top .slick-track {
+        height: 200px;
+        
+    }
+
+    #top .slick-list {
+        height: 200px;
+    }
+
+    #top .main_image .top_slide li {
+        /*background-position: center -150px;*/
+    }
+    #top .count ul li {
+        padding: .5em;
+    }
+    #top .tour a {
+        width: 97%;
+        padding: .5em .1em;
+    }
+    #top .con_new {
+        margin-bottom: .5em;
+    }
+    #top .news ul li {
+        font-size: 1.6rem;
+    }
+    #top .news ul li .news_cat {
+        margin-left: 1em;
+        font-size: 1.4rem;
+    }
+    #top .news .news_btn_wrap {
+        margin-top: 1em;
+    }
+    #top .news .news_btn_wrap .news_btn {
+        font-size: 1.6rem;
+    }
+    footer {
+        font-size: 1.3rem;
+    }
+    footer .copy {
+        padding: .5em;
+        font-size: 1.2rem;
+    }
+    #tokyo_list .title h2 {
+        font-size: 2.5rem;
+    }
+    #tokyo_list .tour_list ul li .list_inner {
+        padding: .4em;
+    }
+    #tokyo_list .tour_list ul li p {
+		font-size: 1.4rem;
+        margin: 0;
+    }
+    #tokyo_list .tour_list ul li .top_slider li {
+        height: 200px;
+    }
+    #tokyo_list .title .inner_sub div div img {
+        /*display: none;*/
+    }
+    #tokyo_list .tour_list ul li .top_slider {
+        height: 200px;
+    }
+    #tokyo_list .tour_list ul li .top_slider li .slide_copy {
+        font-size: 1.4rem;
+    }
+
+    #tokyo_list .title .inner_sub {
+        padding: 1em 1em;
+    }
+
+    #tokyo_list .title h3{
+        font-size:1.8rem;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    #top .main_image .top_slide li {
+        height: 200px;
+        background-position: center;
+    }        
+    #tokyo_list .title h2 {
+        font-size: 2.3rem;
+    }
+    #tokyo_list .title p {
+        font-size: 1.4rem;
+    }
+    #top .contact ul li:first-child a::before {
+        font-size: 3.0rem;
+    }
+    #top .contact ul li a span::after {
+        font-size: 2.4rem;
+    }
+    #top .contact ul a {
+        font-size: 1.8rem;
+    }
+    #top .count ul li .txt_cou {
+        font-size: 1.6rem;
+    }
+    #top .dis_block {
+        display: block;
+    }
+    
+    #top .contact ul li:last-child a::before {
+        font-size: 3.0rem;
+    }
+    #top .main_image div > ul.date li h2 {
+        font-size: 1.6rem;
+    }
+    #tokyo_list .title h3.list_h3_sub {
+        margin: 0;
+        font-size: 1.9rem;
+    }
+}

@@ -1,0 +1,667 @@
+@charset "utf-8";
+/* CSS Common */
+.pcOnly {
+    display: block;
+}
+.spOnly {
+    display: none;
+}
+.spOnly500 {
+    display: none;
+}
+
+/* CSS Document */
+header {
+    border-top: 6px solid #1289b5;
+    background-color: #66ABCB;
+    height: auto;
+}
+header .header-main-content p {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.8rem;
+    padding: 0 1em;
+}
+header h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 30px;
+    color: #fff;
+}
+header div.header-main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+header div.header-main-content div.left {
+    display: flex;
+    flex-direction: row;
+    width: 43%;
+
+}
+header div.header-main-content div.left div:nth-child(1) {
+    background-color: #1A2C53;
+    width: 60%;
+}
+header div.header-main-content div.left div:nth-child(1) img {
+    width: 100%;
+    max-width: 230px;
+}
+header div.header-main-content div.left div:nth-child(2) {
+    background-color: #024991;
+    width: 10%;
+}
+header div.header-main-content div.left div:nth-child(3) {
+    background-color: #127DB1;
+    width: 30%;
+}
+header div.header-main-content div.right {
+    background-color: #66ABCB;
+    width: auto;
+}
+main#top section#upper div.openDay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+main#top section#upper div.openDay p {
+    font-size: 115%;
+    margin-bottom: 0;
+}
+main#top section#upper div.openDay figure {
+    margin: 50px 30px;
+}
+main#top section#upper div.openDay span.yyc-day {
+    color:#1b1b1b;
+    font-size: 230%;
+    letter-spacing: -1px;
+}
+main#top section#upper div.infoTop {
+margin-bottom: 40px;
+}
+main#top section#upper div.infoTop h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    background: url("../img/menu_left.png") no-repeat left top,
+                url("../img/menu_right.png") no-repeat right top;
+    background-color: #024991;
+    margin: 0 auto 40px;
+    height: 70px;
+    padding-top: 0.3em;
+}
+main#top section#upper div.infoTop div {
+    padding: 0 5em;
+}
+main#top section#upper div.infoTop div p {
+    margin: 0;
+    font-size: 2.0rem;
+}
+main#top section#upper div.infoTop a {
+    text-decoration: underline;
+    color: #0d5093;
+}
+main#top section#upper div.infoMiddle {
+    max-width: 100%;
+    border: 20px solid #1A2C53;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+main#top section#upper div.infoMiddle h3 {
+    font-size: 150%;
+}
+main#top section#upper div.infoMiddle div {
+    text-align: center;
+    letter-spacing: 1px;
+}
+main#top section#upper div.infoMiddle div p.oly,
+main#top section#upper div.infoMiddle div p.para {
+    font-weight: bold;
+    font-size: 125%;
+}
+main#top section#upper div.infoMiddle div p.oly span {
+    border-bottom:solid;
+    border-color:#127DB1;
+    border-width:5px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+main#top section#upper div.infoMiddle div p.para span {
+    border-bottom:solid;
+    border-color:#C14E6B;
+    border-width:5px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+main#top section#upper div.infoMiddle figure img {
+    margin-top: 3em;
+}
+main#top section#upper div.infoUnder h4 {
+    text-align: center;
+    font-size: 125%;
+    margin: 40px auto;
+}
+main#top section#middle {
+    border: 7px solid #024991;
+    margin-bottom: 50px;
+}
+main#top section#middle h2 {
+    text-align: center;
+    font-size: 2em;
+    background: url("../img/menu_left.png") no-repeat left top,
+                url("../img/menu_right.png") no-repeat right top;
+    background-color: #024991;
+    margin: 0;
+    height: 70px;
+    padding-top: 0.3em;
+    line-height: 1.2em;
+}
+main#top section#middle h2 a {
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+main#top section#middle h2 a:hover {
+    color: #F39800!important;
+    font-size: 105%;
+    transition: 0.5s ease-in-out;
+}
+main#top section#middle h2 a:visited {
+    color: #fff;
+}
+main#top section#middle div.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: url("../img/menu_left.png") no-repeat left top,
+                url("../img/menu_right.png") no-repeat right top;
+    background-color: #024991;
+    height: 70px;
+    padding-top: 1.2em;
+}
+main#top section#middle div.menu p {
+    background: linear-gradient(#024991, #66ABCB);
+    width: 14em;
+    text-align: center;
+    border: solid 2px #fff;
+    border-radius: 1.2em;
+    margin: 0 0.2em;
+    height: 2.4em;
+}
+main#top section#middle div.menu p:hover {
+    background: linear-gradient(#66ABCB, #024991);
+}
+main#top section#middle div.menu p a {
+    color: #fff;
+    font-size: 120%;
+    font-weight: bold;
+    display: inline-block;
+    margin: 2px auto;
+    width: 100%;
+    height: 100%;
+}
+main#top section#middle div.omamoriPac {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1em;
+    align-items: baseline;
+}
+main#top section#middle div.omamoriPac p {
+    color: #B84C67;
+    font-size: 180%;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+main#top section#middle div.omamoriPac p a {
+    font-size: 80%;
+    color: #0d5093;
+    text-decoration: underline;
+}
+main#top section#middle div.omamoriPac figure {
+    margin-right: 1em;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+main#top section#middle div.omamoriPac figure img {
+    width: 30px;
+}
+
+/* ループアニメーション */
+div.loop_wrap {
+    display: flex;
+    align-items: center;
+    height: auto; 
+    overflow: hidden;   
+    margin-top: 20px;
+    border: 2px solid #fff;
+    display: -ms-grid;
+    -ms-grid-columns: min-content;
+}
+div.slide-paused:hover .slideshow {
+    animation-play-state: paused;
+}
+ul.slideshow {
+    display: flex;
+    animation: loop-slide 20s infinite linear 1s both;
+}
+ul.slideshow span {
+    font-size: 11px;
+    display: inline-block;
+    float: right;
+    margin-right: 1em;
+    height: 20px!important;
+}
+ul.slideshow {
+    margin: 0;
+    height: 220px;
+}
+ul.slideshow li {
+    width: 300px;
+    padding-right: 2px;
+}
+
+@keyframes loop-slide {
+    0% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    to {
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);        
+        transform: translateX(-50%);
+    }
+} 
+/* ループアニメーションここまで */
+
+/* ページ上部ボタン */
+#pageTop{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 2px;
+    bottom: 10px;
+    background: #00b2df;
+    border-radius: 50%;
+}
+    #pageTop a{
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+}
+#pageTop a::before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f062';
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+#pageTop a span {
+    display: inline-block;
+    position: relative;
+    bottom: -3.5em;
+    color: #fff;
+    font-size: 10px;    
+}
+#pageTop:hover {
+    opacity: 0.7;
+}
+@media screen and (max-width: 500px) {
+    #pageTop{
+        width: 50px;
+        height: 50px;
+        opacity: 0.7;
+    }
+    #pageTop a {
+        width: 50px;
+    }
+    #pageTop a span {
+        display: none;
+    }
+}
+/* ページ上部ボタンここまで */
+
+main#top section#lower {
+    margin-bottom: 70px;
+}
+main#top section#lower div.lowInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main#top section#lower div.lowInfo .preRegi {
+    border: 7px solid #024991;
+    width: 40%;
+    padding: 15px;
+}
+main#top section#lower div.lowInfo .newInfo {
+    border: 7px solid #024991;
+    width: 58%;
+    padding: 15px;
+}
+main#top section#lower div.lowInfo .preRegi p {
+    font-size: 2.0rem;
+    margin: 1em 1em 0 2em;
+}
+main#top section#lower div.lowInfo .preRegi ul {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main#top section#lower div.lowInfo .preRegi h2,
+main#top section#lower div.lowInfo .newInfo h2 {
+    padding: .5em;
+    font-size: 2.6rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 8px 0 0 65px;
+}
+main#top section#lower div.lowInfo .preRegi ul a {
+    color: #fff;
+    display: inline-block;
+    padding: 0.7em 0;
+    font-size: 2.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+main#top section#lower div.lowInfo .preRegi ul li.indi a {
+    background-image: url("../img/individual_btn.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 290px;
+    height: 75px;
+}
+main#top section#lower div.lowInfo .preRegi ul li.corp a {
+    background-image: url("../img/corporation_btn.png");
+    background-repeat: no-repeat;
+    width: 290px;
+    margin-top: 0.7em;
+}
+main#top section#lower div.lowInfo .newInfo ul {
+    font-size: 2.0rem;
+    margin: 1em 1em 0 2em;
+}
+main#top section#lower div.lowInfo .newInfo ul li {
+    padding: .5em 0;
+    border-bottom: 1px dotted #333;
+    font-size: 2.0rem;
+}
+main#top section#lower div.lowInfo .newInfo p.news_btn {  
+    float: right;
+    margin-right: 1.5em;
+}
+main#top section#lower div.lowInfo .newInfo p.news_btn a {  
+    background-image: url("../img/news_btn.png");
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.7em 0;
+    width:210px;
+    height: 58px;
+    display: inline-block;
+}
+main#top section#lower h2 {
+    height: 50px;
+    background-image: url("../img/lower_h2.png");
+	/* background-position: left 0.5em top 0.5em; */
+    background-position: left;
+	background-repeat: no-repeat;
+    margin: 0.5em;
+}
+
+@media screen and (max-width: 1100px) {
+    main#top section#lower div.lowInfo {
+        flex-direction: column;
+    }
+    main#top section#lower div.lowInfo .preRegi,
+    main#top section#lower div.lowInfo .newInfo {
+        width: 100%;
+    }
+    main#top section#lower div.lowInfo .preRegi {
+        margin-bottom: 1em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    main#top section#upper div.openDay {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    main#top section#upper div.openDay p {
+        margin: -0.5em;
+        font-size: 3.5vw;
+    }
+    main#top section#upper div.openDay figure {
+        margin: 0 20px -12px;
+    }
+    main#top section#upper div.infoUnder h4 {
+        margin: 1em 0;
+    }
+    main#top section#lower div.lowInfo .newInfo p.news_btn {
+        float: none;
+        margin: 1em auto 0;
+        text-align: center;
+    }
+    main#top section#upper div.infoMiddle {
+        border: 10px solid #1A2C53;
+        flex-wrap: wrap;
+    }
+    main#top section#upper div.infoMiddle figure img {
+        margin-top: 2em;
+    }
+    main#top section#upper div.infoMiddle figure.chara01 {
+        order: 1;
+        width: 48%;
+        margin: 0;
+        text-align: center;
+    }
+    main#top section#upper div.infoMiddle figure.chara02 {
+        order: 2;
+        width: 48%;
+        margin: 0;
+        text-align: center;
+    }
+    main#top section#upper div.infoMiddle div.mainTxt {
+        order: 3;
+        width: 100%;
+    }
+    main#top section#upper div.infoTop h2 {
+        padding-top: 0.2em;
+        line-height: 1.1em;
+        font-size: 1.7em;
+    }
+    main#top section#middle h2 {
+        padding-top: 0;
+        line-height: 1.2em;
+        font-size: 1.7em;
+    }
+    @-moz-document url-prefix() {
+        main#top section#middle h2 {
+            padding-top: 0.3em;
+            line-height: 0.6em;
+        }
+    }
+
+    main#top section#upper div.infoTop div {
+        padding: 0;
+    }
+    main#top section#upper div.infoTop {
+        margin-bottom: 1.5em;
+    }
+    main#top section#middle div.omamoriPac figure {
+        margin-left: 1em;
+    }
+    main#top section#middle div.omamoriPac p {
+        font-size: 150%;
+        line-height: 1.2em;
+    }
+    header div.header-main-content {
+        flex-direction: column;
+    }
+    header div.header-main-content div.left {
+        width: 100%;
+    }
+    .header-inner {
+        width: 100%;
+    }
+    header h1 {
+        margin: .5em 1em;
+    }
+    header div.header-main-content div.right {
+        width: 100%;
+    }
+    main#top section#upper div.openDay p:nth-of-type(1) {
+        margin-top: 1.5em;
+        margin-bottom: -0.1em;
+    }
+    main#top section#upper div.openDay p:nth-of-type(2) {
+        margin-bottom: 1.5em;
+    }
+
+    /* CSS Common */
+    .pcOnly {
+        display: none;
+    }
+    .spOnly {
+        display: block;
+    }
+}
+
+/* IE10, 11のみ */
+@media screen and (-ms-high-contrast: active) and (max-width: 1000px) , screen and (-ms-high-contrast: none) and (max-width: 1000px) {
+    main#top section#upper div.openDay p:nth-of-type(1) {
+        margin-top: 3em;
+        margin-bottom: -0.5em;
+    }
+    main#top section#upper div.openDay p:nth-of-type(2) {
+        margin-bottom: 0.5em;
+    }        
+}
+
+@media screen and (max-width: 500px) {
+    main#top section#upper div.infoTop h2 {
+        padding-top: .3em;
+        line-height: 1.2em;
+    }
+    main#top section#upper div.infoMiddle h3 {
+        font-size: 100%;
+    }
+    main#top section#upper div.infoMiddle div p.oly,
+    main#top section#upper div.infoMiddle div p.para {
+        font-weight: bold;
+        font-size: 100%;
+    }
+    main#top section#upper div.infoMiddle div.mainTxt {
+        letter-spacing: -1px;
+    }
+    main#top section#upper div.openDay p {
+        font-size: 95%;
+    }
+    main#top section#upper div.openDay p {
+        margin: 0;
+    }
+    main#top section#middle div.omamoriPac p {
+        font-size: 110%;
+        line-height: 1.1em;
+        margin-top: 0;
+    }
+    main#top section#middle div.menu p {
+        font-size: 80%;
+    }
+    main#top section#lower div.lowInfo .preRegi h2 {
+        padding-top: 0;
+        line-height: 1.2em;
+    }
+    main#top section#upper div.openDay span.yyc-day {
+        font-size: 210%;
+    }
+    main#top section#upper div.infoTop h2 {
+        padding-top: 0.3em;
+        line-height: 1.3em;
+        font-size: 1.3em;
+        margin-bottom: 1.2em;
+    }
+    main#top section#middle h2 {
+        padding-top: 0.3em;
+        font-size: 1.3em;
+    }
+    main#top section#lower div.lowInfo .newInfo p.news_btn a {
+        background-size: 290px 74px;
+        width: 290px;
+        height: 74px;
+        font-size: 2.6rem;
+        font-weight: 500;
+    }
+    main#top section#lower div.lowInfo .preRegi p,
+    main#top section#lower div.lowInfo .newInfo ul {
+        margin-left: 0.5em;
+        margin-right: 0;
+    }
+    main#top section#upper div.infoTop div {
+        margin-left: 0.5em;
+        margin-right: 0.3em;
+    }
+    main#top section#lower div.lowInfo .preRegi {
+        margin-bottom: 1.5em;
+    }
+    main#top section#middle div.omamoriPac {
+        align-items: flex-end;
+    }
+    main#top section#upper div.infoUnder h4 {
+        font-size: 90%;
+        margin: 1.7em auto;
+    }
+    main#top section#middle {
+        margin-bottom: 2em;
+    }
+    main#top section#upper div.infoTop {
+        margin-bottom: 2em;
+    }
+    main#top section#upper div.infoMiddle figure.chara01 {
+        padding-left: 2%;
+        width: 51%;
+    }
+    main#top section#upper div.infoMiddle figure.chara02 {
+        width: 44%;
+    }
+    main#top section#middle div.omamoriPac figure {
+        margin-left: 0;
+    }
+    main#top section#upper div.openDay p {
+        letter-spacing: -1px;
+    }
+    main#top section#middle div.omamoriPac p a {
+        display: inline-block;
+        margin-left: 1.7em;
+        margin-top: .1em;
+        font-size: 102%;
+    }
+
+    .spVisible {
+        visibility: hidden;
+    }
+    .spOnly500 {
+        display: block;
+    }
+}

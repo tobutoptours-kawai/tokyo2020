@@ -1,0 +1,602 @@
+@charset "utf-8";
+
+html {
+font-size: 16px;
+}
+body {
+  background: white;
+  text-align: center;
+  color: #000;
+  font-family: "TOKYO2020 JPN R", "メイリオ", "Meiryo UI", "游ゴシック", "Yu Gothic UI", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+* button {
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 1 ;  
+}
+* button:hover {
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 0.7 ;
+}
+#wrap {
+    max-width: 1200px;
+    margin: 0 auto 7em;
+}
+.fNormal {
+  font-weight: normal!important;
+}
+
+/*---パンくず---*/
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#pkz {
+  width: 100%;
+  margin: 5px auto 5px;
+  padding: 0;
+  font-size: 12px;
+  color: #5c5955; 
+  list-style: none;
+  text-align: left;
+}
+#pkz li {
+  float: left;
+}
+#pkz li:not(:last-child):after {
+  margin: 0 5px;
+  content: url(./img/ico_pkz_arrow.png);
+}
+#pkz a {
+  color: #5c5955;
+  text-decoration: none;
+}
+#pkz a:hover {
+  opacity: 0.6;
+}
+/*clearfix*/
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#wrap .relative h1 {
+	position: absolute;
+	top: 43%;
+	left: 12%;
+	font-family: "TOKYO2020 JPN DB","メイリオ", "Meiryo UI", "游ゴシック", "Yu Gothic UI", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 3.2rem;
+	font-weight: bold;
+	margin: 0;
+	line-height: 1.3em;
+	text-align: left;
+  display        : inline-block;
+  color          : #fff;
+  letter-spacing : 2px;
+  text-shadow    : 
+       2px  2px 1px #003366,
+      -2px  2px 1px #003366,
+       2px -2px 1px #003366,
+      -2px -2px 1px #003366,
+       2px  0px 1px #003366,
+       0px  2px 1px #003366,
+      -2px  0px 1px #003366,
+       0px -2px 1px #003366;
+}
+#wrap .relative h1 span {
+	display: block;
+	margin-left: 4em;
+}
+#wrap .relative figure.coronaInsurance {
+  margin: 0;
+  position: absolute;
+  z-index: 999;
+  bottom: 0;
+	left: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  #wrap .relative figure.coronaInsurance img {
+    width: 14vw;
+  }  
+}
+@media screen and (max-width: 1150px) {
+  #wrap .relative h1 {
+    font-size: 4.8vw;
+    line-height: 6.5vw;
+    top: 50%;
+    left: 10%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #wrap .relative h1 span {
+    /* margin-left: 0.5em; */
+    line-height: 1.5em;
+  }
+}
+
+#wrap .tourlist {
+	max-width: 960px;
+	margin: 1em auto 0;
+}
+#wrap .tourlist .planTable {
+	width: 100%;
+  border: 1px solid #0093D3;
+}
+#wrap .tourlist .planTable th {
+	background-color: #0093D3;
+	color: #fff;
+	padding: 0.3em;
+}
+#wrap .tourlist .planTable th:nth-of-type(1) {
+	width: 30.5%;
+}
+#wrap .tourlist .planTable th:nth-of-type(2) {
+	width: 25%;
+}
+#wrap .tourlist .planTable th:nth-of-type(3) {
+	width: 11%;
+}
+#wrap .tourlist .planTable th:nth-of-type(4) {
+	width: 33.5%;
+}
+#wrap .tourlist .planTable td {
+	color: #000;
+	line-height: 1.3em;
+	text-align: center;	
+	font-weight: bold;
+	padding: 0.5em;
+  background-color: #D9EFF8;
+}  
+#wrap .tourlist .planTable tr:nth-of-type(odd) td {
+	background-color: #C4E6F5;
+}
+#wrap .tourlist .planTable td span {
+	font-size: 12px;
+} 
+#wrap .relative {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#wrap .relative img {
+  max-width: 1200px;
+  width: 100%;
+}
+#wrap .tourlist div.suggestion {
+  max-width: 100%;
+  background-color: #FFF6DD;
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+  margin-top: 1.5em;
+}
+#wrap .tourlist div.suggestion h2 {
+  font-size: 22px;
+  border-bottom: 2px dotted #333;
+  width: 8.5em;
+  margin: 0.3em auto;
+}
+#wrap .tourlist div.suggestion div.item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+}
+#wrap .tourlist div.suggestion dl {
+  background-color: #fff;
+  font-weight: bold;
+  border-radius: 0.7em;
+  width: 31%;
+}
+#wrap .tourlist div.suggestion dt {
+  position:relative;
+  background: #FF6600;
+  color: #fff;
+  padding: 0!important;
+  width: 30%;
+  height: 28px;
+  font-size: 14px;
+}
+#wrap .tourlist div.suggestion dt:after {
+  content: "";
+  position:absolute;
+  top:0;
+  right:0;
+  width:0;
+  height:0;
+  border-style: solid;
+  border-color: transparent #fff transparent transparent;
+  border-width: 1em 0.7em 1em 0;
+}
+#wrap .tourlist div.suggestion dt span {
+  font-size: 18px;
+}
+#wrap .tourlist div.suggestion dd {
+  margin-inline-start: 0;
+  font-size: 18px;
+  padding: 0.5em;
+}
+#wrap .tourlist div.suggestion p.attention {
+  text-align: right;
+  color: #FF6600;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1.3em;
+}
+#wrap .tourlist div.descri {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+  margin-top: 0.5em;
+}
+#wrap .tourlist div.descri figure {
+  margin: 0;
+}
+#wrap .tourlist div.descri figure img {
+  width: 100%;
+}
+#wrap .tourlist div.descri figure figcaption {
+  font-size: 8px;
+  text-align: right;
+  line-height: 1.6em;
+}
+#wrap .tourlist div.descri div {
+  margin: 0;
+  padding-left: 1.5em;
+  width: 80%;
+}
+#wrap .tourlist div.descri div p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-align: left;
+  line-height: 30px;
+  font-size: 20px;
+}
+#wrap .tourlist div.descri div figure.charactor {
+  float: right;
+  max-width: 100%;
+}
+#wrap .tourlist div.descri div figure.charactor img {
+  max-width: 100px;
+}
+#wrap .tourlist div.descri figure.charactor figcaption {
+  font-size: 8px;
+  text-align: center;
+  margin-top: 1em;
+}
+#wrap .sche {
+  max-width: 960px;
+  margin: 1em auto 0;
+}
+#wrap .sche .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#wrap .sche ul {
+  padding-left: 2.1em;
+  margin-bottom: 0;
+}
+#wrap .sche ul li {
+  text-align: left;
+}
+#wrap .sche p.kome, #wrap .compeSche p.kome {
+  text-align: left;
+  margin-top: 0;
+  margin-left: 2em;
+  text-indent: -1.4em;
+}
+#wrap .compeSche {
+  max-width: 960px;
+  margin: 3em auto 0;
+}
+#wrap .application {
+  max-width: 960px;
+  margin: 2em auto;  
+}
+#wrap .application div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+#wrap .application p.front {
+  color: #135995;
+  font-weight: bold;
+}
+#wrap .application div.btnWrap {
+  display: block;
+  max-width: 324px;
+}
+#wrap .application button {
+  margin: 0.5em 0.5em 0.5em 0.7em;
+  background-color: #135995;
+  border: none;
+  border-bottom: 5px solid #033B6A;
+  border-radius: 0.5em;
+  font-size: 18px;
+  color: #fff;
+  width: 18em;
+  cursor: pointer;
+  padding: 0.8em 0;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+#wrap .application button::before {
+    font-size: 7px;
+    position: absolute;
+    top: 1.9rem;
+    left: 14.5rem;
+    content: ".....";
+    transform: rotate(-30deg);
+    transform-origin: center top;
+    padding: 0px 3rem;
+    background: #fff;
+}
+#wrap .application button::after {
+  font-size: 7px;
+  position: absolute;
+  top: 1.9rem;
+  left: 17rem;
+  content: ".....";
+  transform: rotate(-30deg);
+  transform-origin: center top;
+  padding: 0px 3rem;
+  background: #fff;
+}
+#wrap .application img {
+  margin: 0.4em 0.5em 0.5em 0.7em;
+  background-color: #135995;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 16px;
+  color: #fff;
+  width: 260px;
+  cursor: pointer;
+}
+
+#wrap .application p.back {
+  font-size: 14px;
+  font-weight: bold;
+}
+#wrap .notice ul {
+  margin-top: 0;
+  font-size: 12px;
+}
+#wrap .notice p {
+  font-size: 12px;
+}
+#wrap .notice p span {
+  color: #FF13FF;
+}
+
+#wrap .sche figure, #wrap .compeSche figure {
+  margin: 0;
+  max-width: 960px;
+}
+#wrap .sche figure img, #wrap .compeSche figure img {
+  width: 100%;
+}
+#wrap h3 {
+  text-align: left;
+  border-left: 9px solid #135995;
+  padding-left: 0.7em;
+  font-size: 22px;
+}
+#wrap div.inde, #wrap section.application div {
+  padding: 0 20px;
+}
+#wrap .venueLocation {
+  font-size: 16px;
+}
+#wrap .watchDay {
+  background-color: #FF9801;
+  border: 1px solid #FF6600;
+  text-indent: 0;
+  width: auto;
+  display: inline-block;
+  float: left;
+  border-radius: 0.3em;
+  padding: 0.2em 1em;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0;
+}
+#wrap .watchNight {	
+  background-color: #00b0f0;	
+  border: 1px solid #0070c0;	
+  text-indent: 0;	
+  width: auto;
+  display: inline-block;
+  float: left;
+  border-radius: 0.3em;	
+  padding: 0.2em 1em;
+  color: #fff;	
+  font-weight: bold;	
+  margin-top: 0;	
+}	
+#wrap .watchGirl {	
+  background-color: #ed8487;	
+  border: 1px solid #e34044;	
+  text-indent: 0;	
+  width: 9em;	
+  border-radius: 0.3em;	
+  padding: 1px;	
+  color: #fff;	
+  font-weight: bold;	
+  margin-top: 0;	
+}	
+#wrap .watchBoy {	
+  background-color: #2f5597;	
+  border: 1px solid #072864;	
+  text-indent: 0;	
+  width: 9em;	
+  border-radius: 0.3em;	
+  padding: 1px;	
+  color: #fff;	
+  font-weight: bold;	
+  margin-top: 0;	
+}
+
+.pcOnly {
+  display: block;
+}
+.spOnly {
+  display: none;
+}
+.sspOnly {
+  display: none;
+}
+
+@media screen and (max-width: 330px) {
+  .sspOnly {
+    display: block;
+  }	
+  #wrap .tourlist div.suggestion h2 {
+    font-size: 1.8rem;
+  }
+} 
+
+@media screen and (max-width: 750px) {
+  #wrap .tourlist div.suggestion div.item{
+    flex-direction: column;
+  }
+  #wrap .tourlist div.suggestion dl {
+    width: 100%;
+  }
+  #wrap .tourlist div.descri {
+    flex-direction: column;
+  }
+  #wrap .tourlist div.descri div {
+    padding-left: 0;
+    margin-top: 1em;
+    width: 100%;
+  }
+  #wrap .tourlist div.descri div p {
+    padding-left: 0.2em;
+  }
+  #wrap .tourlist div.suggestion p.attention {
+    text-align: center;
+  }
+  #wrap .application div {
+    flex-direction: column;
+    padding: 0!important;
+  }
+  #wrap .application p.front {
+    margin-bottom: 0;
+  }
+  #wrap .application p.back {
+    margin-top: 0;
+  }
+  #wrap .application button {
+    margin: 0 auto;
+  }
+  #wrap {
+    margin-bottom: 3em;
+  }
+  #wrap div.inde {
+    padding: 0;
+  }
+  #wrap .sche .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0.7em;
+  }
+  #wrap .sche h3,  #wrap .sche .title .titRight {
+    width: 100%;
+  }
+  #wrap .venueLocation {
+    text-align: left;
+    text-indent: -1.4em;
+    margin-left: 0.5em;
+  }
+  #wrap .tourlist div.descri div figure.charactor {
+    float: none;
+  }
+  #wrap .relative figure.coronaInsurance img {
+    width: 30vw;
+  }
+  #wrap .relative h1 {
+    top: 38%;
+  }
+  .pcView {
+    display: none;
+  }
+  .pcOnly {
+    display: none;
+  }
+  .spOnly {
+    display: block;
+  }
+}
+
+/* ページ上部ボタン */
+#pageTop{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 2px;
+  bottom: 10px;
+  background: #00b2df;
+  border-radius: 50%;
+}
+  #pageTop a{
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 55px;
+  text-decoration: none;
+  text-align: center;
+}
+#pageTop a::before{
+  font-family: "Font Awesome 5 Free";
+  content: '\f062';
+  font-weight: 900;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+#pageTop a span {
+  display: inline-block;
+  position: relative;
+  bottom: -34px;
+  color: #fff;
+  font-size: 10px;    
+}
+#pageTop:hover {
+  opacity: 0.7;
+}
+@media screen and (max-width: 500px) {
+  #pageTop{
+      width: 50px;
+      height: 50px;
+      opacity: 0.7;
+  }
+  #pageTop a {
+      width: 50px;
+  }
+  #pageTop a span {
+      display: none;
+  }
+}
+/* ページ上部ボタンここまで */
